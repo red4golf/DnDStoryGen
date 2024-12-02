@@ -21,8 +21,8 @@ Make sure you have Node.js and npm installed on your system.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/young-dm-helper.git
-cd young-dm-helper
+git clone https://github.com/red4golf/DnDStoryGen.git
+cd DnDStoryGen
 ```
 
 2. Install dependencies:
