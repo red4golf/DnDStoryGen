@@ -8,6 +8,8 @@ export const storyPrompts = [
       'It's trying to help someone in need',
       'It found a treasure and wants to share it'
     ],
+    locations: ['Dragon Sanctuary', 'Town Square', 'Nearby Forest'],
+    keyNPCs: ['Sanctuary Keeper', 'Town Mayor', 'Young Dragon Trainer'],
     difficulty: 'Easy'
   },
   {
@@ -18,6 +20,8 @@ export const storyPrompts = [
       'A prize has gone missing',
       'Someone needs help with their magical performance'
     ],
+    locations: ['Main Tent', 'Game Alley', 'Fortune Teller\'s Wagon'],
+    keyNPCs: ['Ringmaster', 'Magical Game Operator', 'Lost Child'],
     difficulty: 'Easy'
   },
   {
@@ -28,97 +32,88 @@ export const storyPrompts = [
       'Cookies make people speak in rhymes',
       'Cookies give people temporary magical powers'
     ],
+    locations: ['Town Baker', 'Magic Ingredient Shop', 'Contest Stage'],
+    keyNPCs: ['Master Baker', 'Magic Ingredient Seller', 'Cookie Judge'],
     difficulty: 'Medium'
   }
 ];
 
-// Kid-friendly monsters with simple stats
-export const monsterGuide = [
+// NPC profiles
+export const npcProfiles = [
   {
-    name: 'Friendly Forest Troll',
-    description: 'A large, green troll who protects the forest. Despite looking scary, they're actually very nice!',
-    stats: {
-      hitPoints: 30,
-      armorClass: 15,
-      friendly: true,
-      specialAbility: 'Can talk to plants and animals'
-    },
-    possibleActions: ['Help guide lost travelers', 'Share forest wisdom', 'Offer magical berries']
+    name: 'Elderberry the Wise',
+    role: 'Town Elder',
+    personality: 'Kind and patient, always ready with helpful advice',
+    appearance: 'Elderly halfling with twinkling eyes and a warm smile',
+    location: 'Usually found in the town library or garden',
+    helpfulFor: 'Giving quests, sharing local history, offering guidance'
   },
   {
-    name: 'Mischievous Pixie',
-    description: 'A tiny, flying creature that loves to play harmless pranks.',
-    stats: {
-      hitPoints: 10,
-      armorClass: 13,
-      friendly: true,
-      specialAbility: 'Can turn invisible for short periods'
-    },
-    possibleActions: ['Create sparkles', 'Tell riddles', 'Lead players on a fun chase']
+    name: 'Pip Buttonbright',
+    role: 'Cheerful Shopkeeper',
+    personality: 'Enthusiastic and friendly, loves telling silly jokes',
+    appearance: 'Young gnome with colorful clothes and a big grin',
+    location: 'The Magical Odds & Ends Shop',
+    helpfulFor: 'Selling supplies, sharing town gossip, providing comic relief'
   },
   {
-    name: 'Cookie Golem',
-    description: 'A creature made entirely of magical cookies! Smells delicious.',
-    stats: {
-      hitPoints: 20,
-      armorClass: 12,
-      friendly: true,
-      specialAbility: 'Can create endless cookies'
-    },
-    possibleActions: ['Share treats', 'Tell cookie-related jokes', 'Help with baking challenges']
+    name: 'Luna Starwhisper',
+    role: 'Animal Caretaker',
+    personality: 'Gentle and caring, speaks softly to all creatures',
+    appearance: 'Tall elf with silver hair and nature-themed clothing',
+    location: 'The Town Stables and Animal Sanctuary',
+    helpfulFor: 'Animal-related quests, providing animal companions, healing injured creatures'
   }
 ];
 
-// Simple rules reference
-export const quickRules = [
+// Location descriptions
+export const locations = [
   {
-    situation: 'When a player wants to do something tricky',
-    rule: 'Ask them to roll a d20 (20-sided die) and add their skill bonus. Higher numbers mean better success!',
-    example: 'Climbing a tree: Roll d20 + Athletics'
+    name: 'Whispering Woods',
+    description: 'A magical forest where the trees sometimes share secrets with travelers',
+    features: [
+      'Glowing mushroom circles',
+      'Talking animals',
+      'Ancient stone bridges',
+      'Crystal-clear streams'
+    ],
+    possibleEvents: [
+      'A lost fairy needs directions',
+      'Animals are planning a forest party',
+      'Magic mushrooms are spreading too quickly'
+    ],
+    mood: 'Mysterious but friendly'
   },
   {
-    situation: 'When players meet a new character',
-    rule: 'Describe what they look like and how they're acting. Use a funny voice if you want!',
-    example: 'The shopkeeper has a curly mustache and talks very fast'
+    name: 'Brightstone Village',
+    description: 'A cheerful town known for its magical marketplaces and friendly residents',
+    features: [
+      'Floating lanterns',
+      'Musical fountains',
+      'Rainbow cobblestone streets',
+      'Flying delivery services'
+    ],
+    possibleEvents: [
+      'Annual magic lantern festival',
+      'Market day chaos',
+      'Street performer competition'
+    ],
+    mood: 'Lively and welcoming'
   },
   {
-    situation: 'When players want to help each other',
-    rule: 'Let them work together! This makes the game more fun and teaches teamwork.',
-    example: 'One player distracts the guard while another sneaks past'
-  },
-  {
-    situation: 'When you're not sure what should happen',
-    rule: 'Make something up that sounds fun and fair. You're the DM - you can decide!',
-    example: 'The magical door opens if the players tell it a funny joke'
+    name: 'Crystal Caves',
+    description: 'Beautiful caves filled with glowing crystals that react to emotions',
+    features: [
+      'Color-changing crystal walls',
+      'Underground lakes',
+      'Echo chambers',
+      'Crystal gardens'
+    ],
+    possibleEvents: [
+      'Crystal light show',
+      'Lost mining cart',
+      'Crystal singing competition'
+    ],
+    mood: 'Magical and peaceful'
   }
 ];
-
-// DM Script templates
-export const dmScripts = {
-  gameStart: [
-    'Welcome to our adventure, brave heroes!',
-    'Before we begin, does everyone have their character sheets?',
-    'Let me set the scene for you...',
-    'You find yourselves...'
-  ],
-  combat: [
-    'Roll for initiative! That means everyone rolls a d20 to see who goes first.',
-    'When it's your turn, you can move and take one action.',
-    'What would you like to do?'
-  ],
-  exploration: [
-    'You enter [location]. What would you like to do here?',
-    'What does your character look for?',
-    'Would anyone like to make a check to search the area?'
-  ],
-  npcMeeting: [
-    'You meet [character name]. They look like...',
-    'They say to you...',
-    'How do you want to respond?'
-  ],
-  rewards: [
-    'For completing this challenge, you find...',
-    'The grateful villager gives you...',
-    'In the treasure chest, you discover...'
-  ]
-};
