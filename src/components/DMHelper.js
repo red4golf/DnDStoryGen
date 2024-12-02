@@ -1,10 +1,3 @@
-                    <Button
-                      key={sides}
-                      variant="outline"
-                      onClick={() => rollDice(sides)}
-                      className="w-16 h-16 flex flex-col items-center justify-center"
-                    >
-                      <span>d{sides}</span>
                       {diceResult && sides === parseInt(diceResult.sides) && (
                         <span className="text-sm">{diceResult.value}</span>
                       )}
