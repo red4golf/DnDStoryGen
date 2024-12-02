@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the Young DM's Adventure Helper */
+@layer components {
+  .dm-helper-section {
+    @apply bg-gray-50 rounded-lg p-6 shadow-sm;
+  }
+  
+  .navigation-button {
+    @apply flex items-center space-x-2 p-2 rounded transition-colors;
+  }
+  
+  .navigation-button-active {
+    @apply bg-blue-500 text-white;
+  }
+  
+  .navigation-button-inactive {
+    @apply bg-gray-100 hover:bg-gray-200;
+  }
+  
+  .card-base {
+    @apply cursor-pointer transition-all;
+  }
+  
+  .card-selected {
+    @apply ring-2 ring-blue-500 shadow-lg;
+  }
+  
+  .card-hover {
+    @apply hover:shadow-md;
+  }
+  
+  .card-disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+  
+  .input-base {
+    @apply w-full p-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+  
+  .button-base {
+    @apply px-4 py-2 rounded-md transition-colors;
+  }
+  
+  .button-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+  
+  .button-secondary {
+    @apply bg-gray-100 hover:bg-gray-200;
+  }
+  
+  .dice-button {
+    @apply p-2 bg-gray-100 rounded hover:bg-gray-200 transition-colors;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+  
+  .print-only {
+    display: block;
+  }
+  
+  .dm-helper-section {
+    break-inside: avoid;
+  }
+}

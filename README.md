@@ -1,48 +1,69 @@
-# Young DM's Adventure Helper 🎲🐉
+# Young DM's Adventure Helper
 
-A kid-friendly tool to help young Dungeon Masters create and run their own D&D adventures! This tool is designed to make DMing fun, easy, and appropriate for younger players.
+A React-based web application designed to help young Dungeon Masters create and run their own D&D adventures.
 
-## What's Inside
+## Features
 
-This tool helps young DMs:
-- Understand their role as a Dungeon Master
-- Create engaging but age-appropriate adventures
-- Keep track of important story elements
-- Learn the basics of storytelling
-- Have fun while leading the game!
-
-## How to Use
-
-The DM Helper is divided into several sections:
-
-1. **Introduction**: Learn what it means to be a Dungeon Master
-2. **Setup**: Create your adventure's basic information
-3. **Characters**: Design friendly NPCs for your players to meet
-4. **Location**: Build exciting places for your adventure
-5. **Story**: Create fun quests and challenges
-
-## Tips for Young DMs
-
-- Always keep the game friendly and fun
-- Listen to your players' ideas
-- It's okay to make mistakes - everyone does!
-- Use your imagination
-- If you're not sure about something, make up what feels right
-- Keep the story appropriate for everyone playing
-
-## For Parents
-
-This tool is designed to help kids learn the basics of being a Dungeon Master while keeping the content age-appropriate. It encourages:
-- Creativity
-- Problem-solving
-- Storytelling skills
-- Social interaction
-- Reading comprehension
-- Math skills (through game mechanics)
+- Interactive adventure building process
+- Kid-friendly interface
+- Character and location selection
+- Built-in dice roller
+- Print functionality
+- Mobile-responsive design
 
 ## Getting Started
 
-1. Click through each section in order
-2. Fill in the information as you go
-3. Use the generated content to help guide your adventure
-4. Have fun!
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your system.
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/young-dm-helper.git
+cd young-dm-helper
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+### Required Dependencies
+
+- React
+- Lucide React (for icons)
+- Tailwind CSS (for styling)
+- shadcn/ui components
+
+## Usage
+
+1. Navigate through the sections using the top navigation bar
+2. Fill in your adventure details
+3. Select NPCs and locations
+4. Use the built-in dice roller for gameplay
+5. Print or save your adventure summary
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details
+
+## Acknowledgments
+
+- D&D 5E SRD for inspiration
+- React community for amazing tools
+- shadcn/ui for beautiful components
