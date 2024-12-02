@@ -2,24 +2,53 @@
 
 A kid-friendly tool to help young Dungeon Masters create and run their own D&D adventures! This tool is designed to make DMing fun, easy, and appropriate for younger players.
 
-## What's Inside
+## Features
 
-This tool helps young DMs:
-- Understand their role as a Dungeon Master
-- Create engaging but age-appropriate adventures
-- Keep track of important story elements
-- Learn the basics of storytelling
-- Have fun while leading the game!
+- 🎮 Interactive adventure building process
+- 👾 Kid-friendly interface
+- 🎲 Built-in dice roller
+- 🖨️ Print functionality
+- 📱 Mobile-responsive design
+- ♿ Accessibility features
+- 🚀 Optimized performance
+
+## Getting Started
+
+### Prerequisites
+
+```bash
+# Install dependencies
+npm install react lucide-react @radix-ui/react-alert
+
+# Install required UI components
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add alert
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add input
+```
+
+### Running the Application
+
+1. Clone the repository
+2. Install dependencies
+3. Start the development server
+4. Open in your browser
 
 ## How to Use
 
-The DM Helper is divided into several sections:
+The DM Helper guides you through creating an adventure in simple steps:
 
 1. **Introduction**: Learn what it means to be a Dungeon Master
 2. **Setup**: Create your adventure's basic information
 3. **Characters**: Design friendly NPCs for your players to meet
 4. **Location**: Build exciting places for your adventure
 5. **Story**: Create fun quests and challenges
+
+### Additional Tools
+
+- **Dice Roller**: Roll any standard D&D dice with a click
+- **Print Function**: Get a nicely formatted adventure summary
+- **Progress Tracking**: Keep track of your adventure creation progress
 
 ## Tips for Young DMs
 
@@ -40,9 +69,27 @@ This tool is designed to help kids learn the basics of being a Dungeon Master wh
 - Reading comprehension
 - Math skills (through game mechanics)
 
-## Getting Started
+## Documentation
 
-1. Click through each section in order
-2. Fill in the information as you go
-3. Use the generated content to help guide your adventure
-4. Have fun!
+For detailed documentation about the component and its features, please check the [DMHelper Documentation](docs/DMHelper.md).
+
+## Contributing
+
+We welcome contributions! Please see our contributing guidelines for more information.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+If you encounter any issues or have questions, please:
+1. Check the documentation
+2. Look through existing issues
+3. Create a new issue if needed
+
+## Acknowledgments
+
+- Thanks to all contributors
+- Special thanks to the D&D community
+- Inspired by young DMs everywhere
