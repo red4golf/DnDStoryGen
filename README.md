@@ -1,4 +1,47 @@
- your adventure
+# Young DM's Adventure Helper 🎲🐉
+
+A kid-friendly tool to help young Dungeon Masters create and run their own D&D adventures! This tool is designed to make DMing fun, easy, and appropriate for younger players.
+
+## Features
+
+- 🎮 Interactive adventure building process
+- 👾 Kid-friendly interface
+- 🎲 Built-in dice roller
+- 🖨️ Print functionality
+- 📱 Mobile-responsive design
+- ♿ Accessibility features
+- 🚀 Optimized performance
+
+## Getting Started
+
+### Prerequisites
+
+```bash
+# Install dependencies
+npm install react lucide-react @radix-ui/react-alert
+
+# Install required UI components
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add alert
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add input
+```
+
+### Running the Application
+
+1. Clone the repository
+2. Install dependencies
+3. Start the development server
+4. Open in your browser
+
+## How to Use
+
+The DM Helper guides you through creating an adventure in simple steps:
+
+1. **Introduction**: Learn what it means to be a Dungeon Master
+2. **Setup**: Create your adventure's basic information
+3. **Characters**: Design friendly NPCs for your players to meet
+4. **Location**: Build exciting places for your adventure
 5. **Story**: Create fun quests and challenges
 
 ### Additional Tools
